@@ -1,0 +1,59 @@
+! Fonte padrão e o tamanho dela
+URxvt.font: xft:inconsolata-bold:size=15
+
+! Remove a barra de rolagem lateral
+URxvt.scrollBar: false
+
+! Adiciona abas ao terminal
+URxvt.perl-ext-common: ...,tabbed,...
+
+! Personalização de cores das abas
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 3
+URxvt.tabbed.tab-bg: 0
+
+! Cursor como underline
+URxvt.cursorUnderline: 1
+
+! Cursor piscando
+URxvt.cursorBlink: 1
+
+! Cores do terminal
+! special
+*.foreground:   #f7fcf9
+*.background:   #08090a
+*.cursorColor:  #f7fcf9
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
+
